@@ -15,11 +15,21 @@
   },
   "dependencies": {
     "gatsby": "^3.6.2",
+    "gatsby-plugin-image": "^1.6.0",
+    "gatsby-plugin-paypal": "^1.1.4",
+    "gatsby-plugin-sharp": "^3.6.0",
+    "gatsby-source-filesystem": "^3.6.0",
+    "gatsby-source-twitch": "^1.0.2",
+    "gatsby-transformer-sharp": "^3.6.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "prettier": "2.2.1"
+    "autoprefixer": "^10.2.6",
+    "gatsby-plugin-postcss": "^4.6.0",
+    "postcss": "^8.3.0",
+    "prettier": "2.2.1",
+    "tailwindcss": "^2.1.4"
   },
   "repository": {
     "type": "git",
