@@ -1,29 +1,43 @@
 import React from "react"
+import { FaTwitch } from "react-icons/fa"
+import Button from "../shared/Button"
+import fireteams from "../../images/bungieFireteams.png"
 // import videoSrc from "../../images/italian.mp4"
 
 const Hero = () => {
   return (
-    <section class="relative left-0 flex items-center justify-center h-screen overflow-hidden text-white body-font bg-vex">
-      <div class="relative z-30 p-5 bg-black bg-opacity-20 min-h-[100%]">
+    <section class="relative left-0 flex items-center justify-center h-screen overflow-hidden text-white body-font bg-dsc-hero">
+      <div class="relative z-30 p-5 bg-black bg-opacity-20 min-h-[100%] min-w-[100%]">
         <div class="items-center justify-center w-full mx-auto text-center lg:w-2/3 lg:mt-48">
           <h1 class="mb-4 text-3xl font-medium text-white title-font sm:text-4xl">
-            The best raid team, you're ever going to roll with
+            The best raid sherpas and carries in Destiny 2
           </h1>
-          {/* <p class="mb-8 leading-relaxed">
-            After what has felt like an eternity we are happy to welcome
-            everyone back inside the Tavern Company! We are still asking
-            everyone to follow all current restrictions and rules whilst dinning
-            inside which are… Maximum groups of 6 (from two households) Face
-            coverings must be worn whenever not seated. Keep a minim of 1 meter
-            apart from other customers.
-          </p> */}
+          <p class="mb-8 leading-relaxed">
+            Tired of spending hours in LFG and spending even longer in raids
+            that fall into arguments and disarray all before you even got out of
+            orbit? Vegan Vex Milk is the number one clan in the world for raid
+            sherpas and raid carries, no matter your skill level.
+          </p>
           <div class="grid place-items-center grid-cols-1 gap-5 p-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
-            <button class="sm:w-[20%] md:w-72 text-center px-6 py-2 text-lg text-white bg-yellow-400 border-0 rounded focus:outline-none hover:bg-yellow-600">
-              About
-            </button>
-            <button class="sm:w-[20%] md:w-72 px-6 py-2 text-lg text-gray-700 bg-gray-100 border-0 rounded focus:outline-none hover:bg-gray-200">
-              Donate
-            </button>
+            <Button
+              hrefTo="https://www.twitch.tv/veganvexmilk"
+              className="sm:w-[20%] md:w-72 px-6 py-2 text-lg text-gray-700 bg-gray-100 border-0 rounded focus:outline-none hover:bg-gray-200"
+            >
+              <FaTwitch className="inline-block text-purple-500" />
+              <p className="inline-block ml-4">Watch us on Twitch</p>
+            </Button>
+            <Button
+              hrefTo="https://www.bungie.net/en/ClanV2/FireteamSearch?platform=1&activityType=22&lang=en&groupid=&"
+              className="sm:w-[20%] md:w-72 px-6 py-2 text-lg text-white bg-yellow-400 border-0 rounded focus:outline-none hover:bg-yellow-600"
+            >
+              <img
+                className="w-[1.25rem] h-[1.25rem] inline-block"
+                src={fireteams}
+                alt=""
+                srcset=""
+              />
+              <p className="inline-block ml-4">Join our Fireteam</p>
+            </Button>
           </div>
         </div>
       </div>

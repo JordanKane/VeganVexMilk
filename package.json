@@ -19,10 +19,10 @@
     "gatsby-plugin-paypal": "^1.1.4",
     "gatsby-plugin-sharp": "^3.6.0",
     "gatsby-source-filesystem": "^3.6.0",
-    "gatsby-source-twitch": "^1.0.2",
     "gatsby-transformer-sharp": "^3.6.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",

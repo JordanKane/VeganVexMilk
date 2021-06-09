@@ -6,7 +6,20 @@ html {
   scroll-behavior: smooth;
 }
 
-.bg-vex {
-  background: url("../../src/images/vex.jpeg") center center no-repeat;
+.bg-dsc-hero {
+  background: url("../../src/images/dsc.jpeg") center center no-repeat;
+  background-color: black;
+  background-attachment: fixed;
+}
+
+.bg-dsc-servers {
+  background: url("../../src/images/dsc-servers.png") center center no-repeat;
+  background-color: black;
+  background-attachment: fixed;
+}
+
+.bg-dsc-space {
+  background: url("../../src/images/dsc-space.jpeg") center center no-repeat;
+  background-color: black;
   background-attachment: fixed;
 }
