@@ -1,5 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
+import { FaPaypal } from "react-icons/fa"
+import Button from "../shared/Button"
 
 const Header = () => {
   return (
@@ -18,12 +20,13 @@ const Header = () => {
           <a class="mr-5 hover:text-gray-300   hover:underline text-white">
             Strategies
           </a>
-          <Link
-            to="#cta"
-            class="mr-5 hover:text-gray-300   hover:underline text-white"
+          <Button
+            hrefTo="https://paypal.me/jordanakane?locale.x=en_GB"
+            className="w-[30] px-6 py-2 text-lg text-white bg-blue-600 border-0 rounded focus:outline-none hover:bg-blue-900"
           >
-            Donate
-          </Link>
+            <FaPaypal className="inline-block text-white" />
+            <p className="inline-block ml-4">Donate</p>
+          </Button>
         </nav>
         {/* <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
           Join our fireteam

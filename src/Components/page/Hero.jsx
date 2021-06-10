@@ -2,7 +2,6 @@ import React from "react"
 import { FaTwitch } from "react-icons/fa"
 import Button from "../shared/Button"
 import fireteams from "../../images/bungieFireteams.png"
-// import videoSrc from "../../images/italian.mp4"
 
 const Hero = () => {
   return (
@@ -10,13 +9,14 @@ const Hero = () => {
       <div class="relative z-30 p-5 bg-black bg-opacity-20 min-h-[100%] min-w-[100%]">
         <div class="items-center justify-center w-full mx-auto text-center lg:w-2/3 lg:mt-48">
           <h1 class="mb-4 text-3xl font-medium text-white title-font sm:text-4xl">
-            The best raid sherpas and carries in Destiny 2
+            Welcome to your last LFG group
           </h1>
           <p class="mb-8 leading-relaxed">
-            Tired of spending hours in LFG and spending even longer in raids
-            that fall into arguments and disarray all before you even got out of
-            orbit? Vegan Vex Milk is the number one clan in the world for raid
-            sherpas and raid carries, no matter your skill level.
+            Tired of spending hours in LFG and even longer in raids that fall
+            into arguments and disarray?
+            <br />
+            Vegan Vex Milk is the number one clan in the world for raid sherpas
+            and raid carries, no matter your skill level.
           </p>
           <div class="grid place-items-center grid-cols-1 gap-5 p-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
             <Button
@@ -34,22 +34,12 @@ const Hero = () => {
                 className="w-[1.25rem] h-[1.25rem] inline-block"
                 src={fireteams}
                 alt=""
-                srcset=""
               />
               <p className="inline-block ml-4">Join our Fireteam</p>
             </Button>
           </div>
         </div>
       </div>
-      {/* <video
-        autoPlay
-        loop
-        muted
-        className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
-      >
-        <source src={videoSrc} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video> */}
     </section>
   )
 }

@@ -18,39 +18,39 @@ const FAQS = () => {
             How does it work?
           </h3>
           <p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-            Our platform works with your content to provides insights and
-            metrics on how you can grow your business and scale your
-            infastructure.
+            You join our fireteam either from our Twitch streams or directly
+            from Bungie Fireteams.
           </p>
         </div>
         <div className="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
           <h3 className="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">
-            Do you offer team pricing?
+            Do I need the meta weapons and gear?
           </h3>
           <p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-            Yes, we do! Team pricing is available for any plan. You can take
-            advantage of 30% off for signing up for team pricing of 10 users or
-            more.
+            No! We're fully equipped to carry you all the way through, if you
+            have them though - it helps, but again it's not completely
+            necessary.
           </p>
         </div>
         <div className="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
           <h3 className="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">
-            How do I make changes and configure my site?
+            Do I need to know the encounters?
           </h3>
           <p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-            You can easily change your site settings inside of your site
-            dashboard by clicking the top right menu and clicking the settings
-            button.
+            Nope. We have the know-how to guide you through every step and every
+            encounter. We will send you the maps for the areas and give you
+            guidance on your loadout, roles and positioning as they arise.
           </p>
         </div>
         <div className="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">
           <h3 className="text-lg font-bold text-purple-500 sm:text-xl md:text-2xl">
-            How do I add a custom domain?
+            How much does this service cost?
           </h3>
           <p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-            You can easily change your site settings inside of your site
-            dashboard by clicking the top right menu and clicking the settings
-            button.
+            It's completely free! We do however ask that if you enjoyed your
+            time with us, and you want to frequently raid with us again, you buy
+            us a coffee through our donatation link. You'll also get some bonus
+            items and emblems from us as a thank you!
           </p>
         </div>
       </div>

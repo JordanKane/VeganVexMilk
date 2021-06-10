@@ -21,7 +21,7 @@ const Testimonials = () => {
             >
               <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
             </svg>
-            See what others are saying
+            See what our past players think
           </h2>
           <div className="block w-full h-0.5 max-w-lg mt-6 bg-purple-100 rounded-full"></div>
 
@@ -35,14 +35,16 @@ const Testimonials = () => {
                   />
                 </div>
                 <div className="flex flex-col items-start justify-center">
-                  <h4 className="font-bold text-gray-800">John Doe</h4>
-                  <p className="text-gray-600">CEO of Something</p>
+                  <h4 className="font-bold text-gray-800">
+                    Comrade Kane (PS4)
+                  </h4>
+                  <p className="italic text-gray-600">First time raider</p>
                 </div>
               </div>
               <blockquote className="mt-8 text-lg text-gray-500">
-                "This is a no-brainer if you want to take your business to the
-                next level. If you are looking for the ultimate toolset, this is
-                it!"
+                "I came into the raid having never done anything like it before,
+                and since completing my first raid - I'm hooked! Thanks guys and
+                I'll keep chasing the Eyes of Tomorrow!"
               </blockquote>
             </div>
             <div className="flex flex-col items-start justify-start w-full h-auto px-0 mx-0 mb-12 border-l border-r border-transparent lg:w-1/3 lg:mb-0 lg:px-8 lg:mx-8 lg:border-gray-200">
