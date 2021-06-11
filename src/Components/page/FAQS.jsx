@@ -4,7 +4,7 @@ const FAQS = () => {
   return (
     <section
       id="faqs"
-      className="relative py-16 bg-white min-w-screen animation-fade animation-delay bg-dsc-space"
+      className="relative py-16 bg-white min-w-screen animation-fade animation-delay bg-dsc-atraks"
     >
       <div className="container px-0 px-8 mx-auto sm:px-12 xl:px-5">
         <p className="text-xs font-bold text-left text-gray-200 uppercase sm:mx-6 sm:text-center sm:text-normal sm:font-bold">
@@ -27,9 +27,8 @@ const FAQS = () => {
             Do I need the meta weapons and gear?
           </h3>
           <p className="mt-2 text-base text-gray-600 sm:text-lg md:text-normal">
-            No! We're fully equipped to carry you all the way through, if you
-            have them though - it helps, but again it's not completely
-            necessary.
+            No! We're fully equipped to carry you all the way through. If you do
+            have them though - it helps the team a little.
           </p>
         </div>
         <div className="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">

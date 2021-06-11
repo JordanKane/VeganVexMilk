@@ -14,20 +14,20 @@ const CTA = () => {
           do great things. Join one of our fireteams or watch us on Twitch to
           see how we roll.
         </p>
-        <div class="grid place-items-center grid-cols-1 gap-5 p-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 w-2/3 mx-auto">
+        <div class="grid place-items-center grid-cols-1 gap-5 p-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
           <Button
             hrefTo="https://www.twitch.tv/veganvexmilk"
             className="px-6 py-2 text-lg text-gray-700 bg-gray-100 border-0 rounded sm:w-[40%] md:w-72 focus:outline-none hover:bg-gray-200"
           >
             <FaTwitch className="inline-block text-purple-500" />
-            <p className="inline-block ml-4">Check us out!</p>
+            <p className="inline-block ml-4">Twitch Stream</p>
           </Button>
           <Button
             hrefTo="https://paypal.me/jordanakane?locale.x=en_GB"
             className="sm:w-[40%] md:w-72 px-6 py-2 text-lg text-white bg-blue-600 border-0 rounded focus:outline-none hover:bg-blue-900"
           >
             <FaPaypal className="inline-block text-white" />
-            <p className="inline-block ml-4">Buy us a coffee!</p>
+            <p className="inline-block ml-4">Donate</p>
           </Button>
         </div>
       </div>

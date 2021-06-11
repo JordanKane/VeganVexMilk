@@ -16,15 +16,16 @@ const Hero = () => {
             into arguments and disarray?
             <br />
             Vegan Vex Milk is the number one clan in the world for raid sherpas
-            and raid carries, no matter your skill level.
+            and raid carries, no matter your skill level. Our only rule is be
+            18+.
           </p>
           <div class="grid place-items-center grid-cols-1 gap-5 p-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
             <Button
               hrefTo="https://www.twitch.tv/veganvexmilk"
-              className="sm:w-[20%] md:w-72 px-6 py-2 text-lg text-gray-700 bg-gray-100 border-0 rounded focus:outline-none hover:bg-gray-200"
+              className="px-6 py-2 text-lg text-gray-700 bg-gray-100 border-0 rounded sm:w-full md:w-72 focus:outline-none hover:bg-gray-200"
             >
               <FaTwitch className="inline-block text-purple-500" />
-              <p className="inline-block ml-4">Watch us on Twitch</p>
+              <p className="inline-block ml-4">Twitch Stream</p>
             </Button>
             <Button
               hrefTo="https://www.bungie.net/en/ClanV2/FireteamSearch?platform=1&activityType=22&lang=en&groupid=&"
@@ -35,7 +36,7 @@ const Hero = () => {
                 src={fireteams}
                 alt=""
               />
-              <p className="inline-block ml-4">Join our Fireteam</p>
+              <p className="inline-block ml-4">Fireteams</p>
             </Button>
           </div>
         </div>

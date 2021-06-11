@@ -12,14 +12,78 @@ html {
   background-attachment: fixed;
 }
 
-.bg-dsc-servers {
-  background: url("../../src/images/dsc-servers.png") center center no-repeat;
-  background-color: black;
-  background-attachment: fixed;
-}
-
 .bg-dsc-space {
   background: url("../../src/images/dsc-space.jpeg") center center no-repeat;
   background-color: black;
   background-attachment: fixed;
+}
+
+.bg-dsc-atraks {
+  background: url("../../src/images/atraks-1.jpeg") center center no-repeat;
+  background-color: black;
+  background-attachment: fixed;
+}
+
+.menu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  padding: 0;
+}
+.line {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 6;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.line1 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.line2 {
+  stroke-dasharray: 60 60;
+  stroke-width: 6;
+}
+.line3 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.opened .line1 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+.opened .line2 {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 6;
+}
+.opened .line3 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+
+.sidebar-closed {
+  background: #000;
+  transition: 1s;
+}
+
+.sidebar-open {
+  background: #000;
+  transition: 1s;
+}
+
+.sidebar-closed a {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.sidebar-open a {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
 }

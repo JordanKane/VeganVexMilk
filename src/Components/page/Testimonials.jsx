@@ -6,7 +6,7 @@ const Testimonials = () => {
       id="testimonials"
       className="flex items-center justify-center py-20 bg-white min-w-screen"
     >
-      <div className="px-16 bg-white">
+      <div className="px-8 bg-white md:px-16 lg:px-16">
         <div className="container flex flex-col items-start mx-auto lg:items-center">
           <p className="relative flex items-start justify-start w-full text-lg font-bold tracking-wider text-purple-500 uppercase lg:justify-center lg:items-center">
             Don't just take our word for it

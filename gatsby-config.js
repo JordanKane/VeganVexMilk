@@ -1,3 +1,7 @@
+// require("dotenv").config({
+//   path: `.env.${process.env.NODE_ENV}`,
+// })
+
 /**
  * Configure your Gatsby site with this file.
  *
@@ -10,13 +14,13 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
-    //
+    "gatsby-plugin-react-helmet",
     // {
-    //   resolve: "gatsby-plugin-paypal",
+    //   resolve: "gatsby-source-stripe",
     //   options: {
-    //     clientId: "YOUR_CLIENT_ID",
-    //     currency: "EUR", // Optional
-    //     vault: true, // Optional
+    //     objects: ["Price"],
+    //     secretKey: process.env.STRIPE_SECRET_KEY,
+    //     downloadFiles: false,
     //   },
     // },
     "gatsby-plugin-postcss",
