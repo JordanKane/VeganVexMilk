@@ -28,10 +28,6 @@ const navLinks = [
 ]
 
 const Header = () => {
-  if (!isBrowser) {
-    return
-  }
-
   const [isMobile, setMobile] = useState(window.innerWidth <= 640)
   const [isOpen, setIsOpen] = useState(false)
 
@@ -43,6 +39,10 @@ const Header = () => {
     window.addEventListener("resize", updateMedia)
     return () => window.removeEventListener("resize", updateMedia)
   })
+
+  if (!isBrowser) {
+    return
+  }
 
   return (
     <>
