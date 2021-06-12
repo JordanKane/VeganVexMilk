@@ -28,16 +28,22 @@ const navLinks = [
 ]
 
 const Header = () => {
-  useEffect(() => {
-    const updateMedia = () => {
-      setMobile(window.innerWidth <= 640)
-    }
-    window.addEventListener("resize", updateMedia)
-    return () => window.removeEventListener("resize", updateMedia)
-  })
-
   const [isMobile, setMobile] = useState(window.innerWidth <= 640)
   const [isOpen, setIsOpen] = useState(false)
+  const [windowWidth, setWindowWidth] = useState(0)
+  const [windowHeight, setWindowHeight] = useState(0)
+
+  let resizeWindow = () => {
+    setWindowWidth(window.innerWidth)
+    setWindowHeight(window.innerHeight)
+    setMobile(window.innerWidth <= 640)
+  }
+
+  useEffect(() => {
+    resizeWindow()
+    window.addEventListener("resize", resizeWindow)
+    return () => window.removeEventListener("resize", resizeWindow)
+  }, [])
 
   if (!isBrowser) {
     return
