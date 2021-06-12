@@ -27,17 +27,20 @@ const navLinks = [
 ]
 
 const Header = () => {
-  const [isMobile, setMobile] = useState(window.innerWidth <= 640)
-  const [isOpen, setIsOpen] = useState(false)
+  if (typeof window !== undefined) {
+    const [isMobile, setMobile] = useState(window.innerWidth <= 640)
 
-  const updateMedia = () => {
-    setMobile(window.innerWidth <= 640)
+    const updateMedia = () => {
+      setMobile(window.innerWidth <= 640)
+    }
+
+    useEffect(() => {
+      window.addEventListener("resize", updateMedia)
+      return () => window.removeEventListener("resize", updateMedia)
+    })
   }
 
-  useEffect(() => {
-    window.addEventListener("resize", updateMedia)
-    return () => window.removeEventListener("resize", updateMedia)
-  })
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <>
