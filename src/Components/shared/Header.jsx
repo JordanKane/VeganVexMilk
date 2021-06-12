@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import { Link } from "gatsby"
 import { FaPaypal } from "react-icons/fa"
 import Button from "../shared/Button"
+import { isBrowser } from "../../utils"
 
 const navLinks = [
   {
@@ -27,20 +28,21 @@ const navLinks = [
 ]
 
 const Header = () => {
-  if (typeof window !== undefined) {
-    const [isMobile, setMobile] = useState(window.innerWidth <= 640)
-
-    const updateMedia = () => {
-      setMobile(window.innerWidth <= 640)
-    }
-
-    useEffect(() => {
-      window.addEventListener("resize", updateMedia)
-      return () => window.removeEventListener("resize", updateMedia)
-    })
+  if (!isBrowser) {
+    return
   }
 
+  const [isMobile, setMobile] = useState(window.innerWidth <= 640)
   const [isOpen, setIsOpen] = useState(false)
+
+  const updateMedia = () => {
+    setMobile(window.innerWidth <= 640)
+  }
+
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia)
+    return () => window.removeEventListener("resize", updateMedia)
+  })
 
   return (
     <>
