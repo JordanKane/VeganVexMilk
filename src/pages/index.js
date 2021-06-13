@@ -6,7 +6,6 @@ import FAQS from "../Components/page/FAQS"
 import Testimonials from "../Components/page/Testimonials"
 import Call from "../Components/page/Call"
 import Layout from "../Components/shared/Layout"
-import HookTest from "../Components/page/HookTest"
 
 const index = () => {
   return (
@@ -17,7 +16,6 @@ const index = () => {
       <Testimonials />
       <FAQS />
       <Call />
-      <HookTest />
     </Layout>
   )
 }

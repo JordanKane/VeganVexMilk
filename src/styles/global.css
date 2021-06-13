@@ -69,6 +69,7 @@ html {
 .sidebar-closed {
   background: #000;
   transition: 1s;
+  /* display: none; */
 }
 
 .sidebar-open {
@@ -77,13 +78,13 @@ html {
 }
 
 .sidebar-closed a {
-  visibility: hidden;
+  /* display: none; */
   opacity: 0;
   transition: 0.5s;
 }
 
 .sidebar-open a {
-  visibility: visible;
+  text-align: center;
   opacity: 1;
   transition: 0.5s;
 }
