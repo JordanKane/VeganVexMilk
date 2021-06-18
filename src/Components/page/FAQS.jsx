@@ -7,10 +7,10 @@ const FAQS = () => {
       className="relative py-16 bg-white min-w-screen animation-fade animation-delay bg-dsc-atraks"
     >
       <div className="container px-8 mx-auto sm:px-12 xl:px-5">
-        <p className="text-xs font-bold text-center text-gray-200 uppercase lg:text-left sm:mx-6 sm:text-center sm:text-normal sm:font-bold">
+        <p className="text-xs font-bold text-center text-gray-200 uppercase sm:mx-6 sm:text-center sm:text-normal sm:font-bold">
           Got a Question? We’ve got answers.
         </p>
-        <h3 className="mt-1 text-2xl font-bold text-center text-white lg:text-left sm:mx-6 sm:text-3xl md:text-4xl lg:text-5xl sm:text-center sm:mx-0">
+        <h3 className="mt-1 text-2xl font-bold text-center text-white sm:mx-6 sm:text-3xl md:text-4xl lg:text-5xl sm:text-center">
           Frequently Asked Questions
         </h3>
         <div className="w-full px-6 py-6 mx-auto mt-10 bg-white border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3">

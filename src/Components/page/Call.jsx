@@ -4,7 +4,7 @@ import Button from "../shared/Button"
 
 const CTA = () => {
   return (
-    <section id="cta" className="py-20 bg-white">
+    <section id="donate" className="py-20 bg-white">
       <div className="px-4 mx-auto text-center max-w-7xl sm:px-6 lg:px-8">
         <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-5xl xl:text-6xl">
           The Best Way to Raid in Destiny 2
@@ -23,7 +23,9 @@ const CTA = () => {
             <p className="inline-block ml-4">Twitch Stream</p>
           </Button>
           <Button
-            hrefTo="https://paypal.me/jordanakane?locale.x=en_GB"
+            linkTo="/donate"
+            role="link"
+            // onClick={handleClick}
             className="sm:w-[40%] md:w-72 px-6 py-2 text-lg text-white bg-blue-600 border-0 rounded focus:outline-none hover:bg-blue-900"
           >
             <FaPaypal className="inline-block text-white" />

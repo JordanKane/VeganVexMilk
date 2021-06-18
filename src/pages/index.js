@@ -1,4 +1,5 @@
 import React from "react"
+
 import Hero from "../Components/page/Hero"
 import Content from "../Components/page/Content"
 import Features from "../Components/page/Features"

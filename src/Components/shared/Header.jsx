@@ -7,22 +7,27 @@ const navLinks = [
   {
     linkName: "About",
     linkTo: "#about",
+    linkType: "link",
   },
   {
     linkName: "Features",
     linkTo: "#features",
+    linkType: "link",
   },
   {
     linkName: "Testimonials",
     linkTo: "#testimonials",
+    linkType: "link",
   },
   {
     linkName: "FAQs",
     linkTo: "#faqs",
+    linkType: "link",
   },
   {
     linkName: "Donate",
-    linkTo: "#donate",
+    linkTo: "/donate",
+    linkType: "button",
   },
 ]
 
@@ -61,31 +66,30 @@ const Header = () => {
               />
             </svg>
           </button>
-        </div>
-
-        <div
-          id="desktopNav"
-          className="container hidden text-base lg:block md:ml-auto"
-        >
-          <nav>
-            {navLinks.map((link, index) => (
-              <Link
-                to={link.linkTo}
-                title={link.linkName}
-                id={index}
-                className="mr-4 hover:underline hover:text-gray-400"
+          <div
+            id="desktopNav"
+            className="container hidden text-base lg:grid md:ml-auto"
+          >
+            <nav className="place-self-end">
+              {navLinks.map((link, index) => (
+                <Link
+                  to={link.linkTo}
+                  title={link.linkName}
+                  id={index}
+                  className="mr-4 hover:underline hover:text-gray-400"
+                >
+                  {link.linkName}
+                </Link>
+              ))}
+              <Button
+                linkTo="/donate"
+                className="w-[30] px-6 py-2 text-lg text-white bg-blue-600 border-0 rounded focus:outline-none hover:bg-blue-900"
               >
-                {link.linkName}
-              </Link>
-            ))}
-            <Button
-              hrefTo="https://paypal.me/jordanakane?locale.x=en_GB"
-              className="w-[30] px-6 py-2 text-lg text-white bg-blue-600 border-0 rounded focus:outline-none hover:bg-blue-900"
-            >
-              <FaPaypal className="inline-block text-white" />
-              <p className="inline-block ml-4">Donate</p>
-            </Button>
-          </nav>
+                <FaPaypal className="inline-block text-white" />
+                <p className="inline-block ml-4">Donate</p>
+              </Button>
+            </nav>
+          </div>
         </div>
 
         <div
@@ -93,8 +97,8 @@ const Header = () => {
           className={`${
             isOpen
               ? "sidebar-open container min-h-screen min-w-full py-20 mx-auto"
-              : "sidebar-closed max-h-0 min-w-full"
-          } `}
+              : "sidebar-closed max-h-0 min-w-full "
+          } lg:hidden `}
         >
           <nav className="grid items-center grid-cols-1 gap-10 place-items-center">
             {navLinks.map((link, index) => (
@@ -103,6 +107,7 @@ const Header = () => {
                 title={link.linkName}
                 id={index}
                 className="text-xl font-bold"
+                onClick={() => setIsOpen(!isOpen)}
               >
                 {link.linkName}
               </Link>
