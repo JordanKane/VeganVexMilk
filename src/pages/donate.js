@@ -1,14 +1,15 @@
 import React from "react"
+import { FaCoffee } from "react-icons/fa"
 import Layout from "../Components/shared/Layout"
 import Button from "../Components/shared/Button"
 
 const donate = () => {
   return (
     <Layout>
-      <section id="donate__hero" class="text-gray-600 body-font">
+      <section id="donate__hero" class="text-gray-50 body-font bg-dsc-space">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-50">
               Before they sold out
               <br class="hidden lg:inline-block" />
               readymade gluten
@@ -20,7 +21,7 @@ const donate = () => {
               truffaut hexagon try-hard chambray.
             </p>
             <div class="flex justify-center">
-              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+              <button class="inline-flex text-black bg-yellow-400 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
                 Button
               </button>
               <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
@@ -117,9 +118,10 @@ const donate = () => {
             <Button
               hrefTo="https://donorbox.org/vegan-vex-milk-raid-carries?default_interval=o"
               title="Donate"
-              className="px-20 py-5 text-white bg-gray-900 rounded hover:bg-gray-500"
+              className="py-3 pl-5 pr-8 text-black bg-yellow-400 rounded hover:bg-yellow-600"
             >
-              Donate
+              <FaCoffee className="inline-block mr-5 text-black" />
+              Buy us a coffee
             </Button>
           </div>
         </div>

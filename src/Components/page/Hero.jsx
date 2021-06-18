@@ -36,7 +36,7 @@ const Hero = () => {
                 src={fireteams}
                 alt=""
               />
-              <p className="inline-block ml-4">Fireteams</p>
+              <p className="inline-block ml-4 text-black">Fireteams</p>
             </Button>
           </div>
         </div>

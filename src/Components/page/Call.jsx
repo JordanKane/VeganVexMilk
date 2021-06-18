@@ -1,5 +1,5 @@
 import React from "react"
-import { FaTwitch, FaPaypal } from "react-icons/fa"
+import { FaTwitch, FaCoffee } from "react-icons/fa"
 import Button from "../shared/Button"
 
 const CTA = () => {
@@ -26,9 +26,9 @@ const CTA = () => {
             linkTo="/donate"
             role="link"
             // onClick={handleClick}
-            className="sm:w-[40%] md:w-72 px-6 py-2 text-lg text-white bg-blue-600 border-0 rounded focus:outline-none hover:bg-blue-900"
+            className="sm:w-[40%] md:w-72 px-6 py-2 text-lg text-black bg-yellow-400 border-0 rounded focus:outline-none hover:bg-yellow-600"
           >
-            <FaPaypal className="inline-block text-white" />
+            <FaCoffee className="inline-block text-black" />
             <p className="inline-block ml-4">Donate</p>
           </Button>
         </div>
