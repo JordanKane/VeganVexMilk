@@ -5,30 +5,35 @@ import Button from "../shared/Button"
 
 const navLinks = [
   {
+    linkName: "Raid Guides",
+    linkTo: "/raids",
+    linkType: "link",
+  },
+  {
     linkName: "About",
-    linkTo: "#about",
+    linkTo: "/#about",
     linkType: "link",
   },
   {
     linkName: "Features",
-    linkTo: "#features",
+    linkTo: "/#features",
     linkType: "link",
   },
   {
     linkName: "Testimonials",
-    linkTo: "#testimonials",
+    linkTo: "/#testimonials",
     linkType: "link",
   },
   {
     linkName: "FAQs",
-    linkTo: "#faqs",
+    linkTo: "/#faqs",
     linkType: "link",
   },
-  {
-    linkName: "Donate",
-    linkTo: "/donate",
-    linkType: "button",
-  },
+  // {
+  //   linkName: "Donate",
+  //   linkTo: "/donate",
+  //   linkType: "button",
+  // },
 ]
 
 const Header = () => {

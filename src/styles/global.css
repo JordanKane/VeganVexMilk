@@ -24,6 +24,21 @@ html {
   background-attachment: fixed;
 }
 
+.bg-dsc-cover {
+  background: url("../../src/images/dsc-cover.jpeg") center center no-repeat;
+  background-color: black;
+}
+
+.bg-vog-cover {
+  background: url("../../src/images/vog-cover.jpg") center center no-repeat;
+  background-color: black;
+}
+
+.bg-raid-cover {
+  background: url("../../src/images/raid-cover.jpeg") center center no-repeat;
+  background-color: black;
+}
+
 .menu {
   background-color: transparent;
   border: none;
