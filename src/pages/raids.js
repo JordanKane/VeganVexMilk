@@ -21,7 +21,10 @@ export default class Raids extends Component {
                     Photo booth fam kinfolk cold-pressed sriracha leggings
                     jianbing microdosing tousled waistcoat.
                   </p>
-                  <a class="text-white py-5 px-12 bg-yellow-400 rounded inline-flex items-center">
+                  <Link
+                    to="/deepstonecrypt"
+                    class="text-white py-5 px-12 bg-yellow-400 rounded inline-flex items-center"
+                  >
                     Learn More
                     <svg
                       class="w-4 h-4 ml-2"
@@ -35,7 +38,7 @@ export default class Raids extends Component {
                       <path d="M5 12h14"></path>
                       <path d="M12 5l7 7-7 7"></path>
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div class="p-4 lg:w-1/3">
@@ -47,7 +50,10 @@ export default class Raids extends Component {
                     Photo booth fam kinfolk cold-pressed sriracha leggings
                     jianbing microdosing tousled waistcoat.
                   </p>
-                  <a class="text-white py-5 px-12 bg-yellow-400 rounded inline-flex items-center">
+                  <Link
+                    to="/vaultofglass"
+                    class="text-white py-5 px-12 bg-yellow-400 rounded inline-flex items-center"
+                  >
                     Learn More
                     <svg
                       class="w-4 h-4 ml-2"
@@ -61,7 +67,7 @@ export default class Raids extends Component {
                       <path d="M5 12h14"></path>
                       <path d="M12 5l7 7-7 7"></path>
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div class="p-4 lg:w-1/3">
