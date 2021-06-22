@@ -5,8 +5,13 @@ export default class Vaultofglass extends Component {
   render() {
     return (
       <Layout>
-        <h3 className="text-base uppercase">Raid Guide</h3>
-        <h1>Vault of Glass</h1>
+        <div className="grid grid-cols-1 py-24 text-white place-content-center bg-vog-cover">
+          <h2 className="text-base text-center uppercase">Raid Guide</h2>
+          <h1 className="text-4xl text-center">Vault of Glass</h1>
+          <h3 className="text-xl italic text-center">
+            "Beneath Venus, evil stirs..."
+          </h3>
+        </div>
 
         <section id="spire" class="text-gray-600 body-font">
           <div class="container flex flex-wrap px-5 py-24 mx-auto items-center">
