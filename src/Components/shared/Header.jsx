@@ -6,7 +6,7 @@ import Button from "../shared/Button"
 const navLinks = [
   {
     linkName: "Raid Guides",
-    linkTo: "/raids",
+    linkTo: "/raid-guides",
     linkType: "link",
   },
   {

@@ -187,7 +187,7 @@ const Deepstonecrypt = () => {
       </section>
 
       <section id="security" class="text-gray-600 body-font relative">
-        <div className="w-full h-full">
+        <div className="absolute w-full h-full">
           <GatsbyImage
             image={
               sanityRaid.encounters[1].encounterBanner.asset.gatsbyImageData
@@ -340,7 +340,7 @@ const Deepstonecrypt = () => {
 
       <section id="atraks" class="text-gray-600 body-font relative">
         <div class="container flex flex-wrap px-5 py-24 mx-auto items-center bg-black bg-opacity-40 relative">
-          <div className="w-full h-full">
+          <div className="absolute w-full h-full">
             <GatsbyImage
               image={
                 sanityRaid.encounters[2].encounterBanner.asset.gatsbyImageData
@@ -476,7 +476,7 @@ const Deepstonecrypt = () => {
 
       <section id="jumping" class="text-gray-600 body-font relative">
         <div class="container flex flex-wrap px-5 py-24 mx-auto items-center relative bg-black bg-opacity-40">
-          <div className="w-full h-full">
+          <div className="absolute w-full h-full">
             <GatsbyImage
               image={
                 sanityRaid.encounters[3].encounterBanner.asset.gatsbyImageData
