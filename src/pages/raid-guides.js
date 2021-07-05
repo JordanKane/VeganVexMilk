@@ -22,7 +22,7 @@ export default class Raids extends Component {
                     jianbing microdosing tousled waistcoat.
                   </p>
                   <Link
-                    to="/deep-stone-crypt"
+                    to="/raid-guides/deep-stone-crypt"
                     class="text-white py-5 px-12 bg-yellow-400 rounded inline-flex items-center"
                   >
                     Learn More
