@@ -42,6 +42,7 @@ const Deepstonecrypt = () => {
             }
           }
           encounterName
+          isLootable
         }
       }
     }
@@ -71,7 +72,7 @@ const Deepstonecrypt = () => {
             alt="Destiny 2 Deep Stone Crypt - Crypt Security"
             // placeholder="blurred"
             // layout="fixed"
-            className="absolute inset-0 w-full h-full z-[-9999]"
+            className="absolute inset-0 w-full h-full z-[-9999] object-cover"
             // width={20}
             // height={20}
           />

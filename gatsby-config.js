@@ -38,5 +38,20 @@ module.exports = {
     //   },
     // },
     "gatsby-plugin-postcss",
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `VeganVexMilk`,
+        short_name: `VeganVexMilk`,
+        description: `The best raid team you're ever going to find.`,
+        lang: `en`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#000000`,
+        display: `standalone`,
+        icon: `src/images/bungieFireteams.png`,
+      },
+    },
+    `gatsby-plugin-offline`,
   ],
 }
